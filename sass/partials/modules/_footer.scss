@@ -1,0 +1,10 @@
+footer {
+  padding: 24px 0 24px 0;
+  background-color: $footerbackground;
+  p {
+  	color: $color-texto4;
+    @extend %container;
+    margin-left: 7px;
+    text-align: left;
+  }
+}

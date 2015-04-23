@@ -1,0 +1,74 @@
+.header-contact {
+	text-align: right;
+	margin-right: 2%;
+	width: 50%;
+	float: right;
+	position: relative;
+	li {
+		margin-top: -10px;
+    vertical-align: top;
+    display: inline-block;
+	}
+	p {
+		margin-top: 0px;
+	}
+	a {
+    display: inline-block;
+    font-family: $sans;
+    @include font-size(7);
+	}
+    ul {
+	margin-top: 0px;
+
+	}
+	li {
+	display: inline-block;
+	list-style: none;
+	}
+}
+
+
+.header-primary-nav {
+	width: 50%;
+	float: right;
+	position: relative;
+	margin-top: -30px;
+	position: relative;
+	li {
+    vertical-align: top;
+    display: inline-block;
+    list-style: none;
+	}
+	a {
+    display: inline-block;
+    height: 100px;
+    font-family: $sans;
+    @include font-size(15);
+	line-height: 100px;
+	text-align: center;
+	color: #000;
+	}
+    ul {
+	margin-top: 15px;
+
+	}
+	li {
+	display: inline-block;
+	margin: 0 4%;
+	}
+	
+}
+
+
+
+
+.main-nav a {
+	line-height: 100px;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+
+.main-nav a:hover {
+	color: #cc1919;
+}

@@ -1,0 +1,54 @@
+//
+// Layout styles
+//
+.main-hero-image {
+	background: url(../assets/hero-image.jpg) no-repeat;
+	height: 295px;
+	width: 100%;
+	h2 {
+		color: $color-texto4;
+		@include font-size(40);
+		text-align: left;
+		max-width: 700px;
+		padding-top: 100px;
+		margin-left: 50px;
+	}
+}
+
+.about {
+	@include font-size(13);
+	p {
+		width: 700px;
+		margin-left: 17%;
+	}
+	a {
+		color: $color-texto3;
+		&:hover {
+		background-color: $color-texto3;
+    	transform:translate(50px,50px);
+    	color: $color-texto4;
+	}
+	}
+}
+
+.services {
+	background-color: $background1;
+	width: 100%;
+	&-details {
+		width: 25%;
+		float: left;
+		position: relative;
+		li {
+			list-style-type: none;
+			line-height: 20px;
+		}
+	}
+}
+
+.contact {
+	line-height: 25px;
+	&-info {
+		color: $color-texto1;
+		@include font-size(15);
+	}
+}

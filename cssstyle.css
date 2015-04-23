@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+p, li {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 0.3em;
+  color: #3b1128;
+}
+
+a {
+  color: #e8330f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.section-header {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=cssstyle.css.map */

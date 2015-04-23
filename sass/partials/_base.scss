@@ -1,0 +1,50 @@
+// 
+// Estilos para los elementos base
+//
+
+html {
+  background-color: $background2;
+  font-size: 62.5%;
+  font-family: $sans;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $background3;
+  margin: 0 100px 0;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+    margin: 0;
+    position: relative;
+    vertical-align: top;
+  }
+
+p {
+  color: $color-texto2;
+}
+
+h1 {
+  text-align: left;
+  color: $color-texto4;
+  height: 20px;
+  img {
+    margin-top: 30px;
+  }
+}
+
+a {
+  color: $color-texto1;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
